@@ -20,6 +20,8 @@ body {
 h1 {
   font-weight: bolder;
   font-family: "Satisfy", cursive;
+  transform: rotate(352deg);
+
   font-size: 94px;
 }
 h5,
@@ -42,6 +44,7 @@ p {
 a {
   font-family: "Satisfy", cursive;
   font-weight: bold;
+  text-decoration: underline;
 }
 .nav {
   background-color: var(--secondary-color);
