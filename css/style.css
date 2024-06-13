@@ -1,7 +1,13 @@
+:root {
+  --main-color: rgb(237, 116, 116);
+  --secondary-color: rgba(84, 190, 228, 0.802);
+  --border-color: rgb(130, 120, 120);
+}
+
 .intro {
-  background-color: rgb(223, 107, 107);
+  background-color: var(--main-color);
   border-radius: 20px;
-  border-color: rgb(130, 120, 120);
+  border-color: var(--border-color);
   border-style: solid;
   border-width: thick;
   padding: 30px;
@@ -11,11 +17,22 @@ h1 {
   font-family: "Satisfy", cursive;
   font-size: 94px;
 }
-h5 {
+h5,
+p {
   font-size: medium;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  color: rgba(0, 0, 0, 0.716);
+
+  font-weight: 1300px;
 }
-p {
-  font-weight: 300px;
+.contact {
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Satisfy", cursive;
+  border-style: solid;
+  border-width: 4px;
 }
