@@ -14,7 +14,7 @@ body {
   border-radius: 20px;
   border-color: var(--border-color);
   border-style: solid;
-  border-width: thick;
+  border-width: 2px;
   padding: 30px;
 }
 h1 {
@@ -24,12 +24,23 @@ h1 {
 
   font-size: 94px;
 }
+h3,
 h5,
 p {
   font-size: medium;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.716);
+}
+h3 {
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.6;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+h4 {
+  font-size: 40px;
 }
 .contact {
   background-color: var(--secondary-color);
@@ -41,6 +52,11 @@ p {
   border-style: solid;
   border-width: 4px;
 }
+p {
+  font-family: "Satisfy", cursive;
+  opacity: 07;
+  line-height: 30px;
+}
 a {
   font-family: "Satisfy", cursive;
   font-weight: bold;
@@ -50,19 +66,27 @@ a {
   background-color: var(--secondary-color);
   padding: 10px;
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
   border-color: var(--border-color);
   border-radius: 20px;
 }
+.text {
+  background-color: #ffe9c9;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--border-color);
+  padding-top: 80px;
+  border-radius: 20px;
+}
+
 footer {
   margin-top: 30px;
   font-size: xx-large;
 }
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   .text {
     display: none;
-  }
-  .weather {
-    display: center;
   }
 }
