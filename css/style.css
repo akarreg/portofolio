@@ -17,11 +17,11 @@ body {
   border-width: 2px;
   padding: 30px;
 }
+
 h1 {
   font-weight: bolder;
   font-family: "Satisfy", cursive;
   transform: rotate(352deg);
-
   font-size: 94px;
 }
 h2 {
@@ -30,14 +30,14 @@ h2 {
 }
 h5,
 p {
-  font-size: medium;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+
   color: rgba(0, 0, 0, 0.716);
 }
 h3 {
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
   opacity: 0.6;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
@@ -84,11 +84,15 @@ a {
   padding-top: 80px;
   border-radius: 20px;
 }
+.honey {
+  border-radius: 30px;
+}
 
 footer {
   margin-top: 30px;
   font-size: xx-large;
 }
+
 @media (max-width: 700px) {
   .text {
     display: none;
