@@ -31,7 +31,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
 
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
@@ -67,7 +67,6 @@ h5 {
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  text-decoration: none;
   text-decoration-color: black;
   background-color: var(--main-color);
   padding: 20px;
@@ -77,10 +76,12 @@ p {
   font-family: "Satisfy", cursive;
   opacity: 0.6;
   line-height: 30px;
+  font-size: 25px;
 }
 a {
   font-family: "Satisfy", cursive;
   font-weight: bold;
+  text-decoration: none;
 }
 .nav {
   background-color: var(--secondary-color);
