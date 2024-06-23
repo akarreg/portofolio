@@ -55,11 +55,23 @@ h5 {
   border-width: 4px;
   text-align: center;
 }
-href:hover {
-  font-size: 400px;
-}
+
 .contact:hover {
   font-size: 30px;
+}
+.work {
+  text-align: center;
+  color: var(--main-color);
+  text-decoration: underline;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.work:hover {
+  color: var(--secondary-color);
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
 .contact2 {
